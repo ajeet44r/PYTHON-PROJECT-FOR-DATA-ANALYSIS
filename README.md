@@ -28,17 +28,17 @@ PROJECT DETAILS :
 >df.info() - it will give all information that how many rows and 
              columns and also gives the detailed about the columns
 
->DATA CLEANING - removes null values , renames the columns name 
-                 df.drop() ,to delete the columns which contains null values 
-                 pd.isnull(df) -to check the null values 
+>DATA CLEANING - removes null values , renames the columns name .
+                 df.drop() - to delete the columns which contains null values . 
+                 pd.isnull(df) -to check the null values .
                  pd.isnull(df).sum() it will give the sum of null 
-                                      values in every columns
-                 df.dropna() to remove null values 
-                 df['columnname'] = df['columnname'].astype('int') to change the datatype of the column
-                 df['columnname'].dtypes
-                 df.columns
-                 df.rename(columns={'previous colname':'newcolname'})
-                 df.describe()- description of the data                 
+                                      values in every columns .
+                 df.dropna() to remove null values .
+                 df['columnname'] = df['columnname'].astype('int') to change the datatype of the columns .
+                 df['columnname'].dtypes .
+                 df.columns .
+                 df.rename(columns={'previous colname':'newcolname'}) .
+                 df.describe()- description of the data .                
    
 >EDA -then exploratory data analysis on different values and columns
        
